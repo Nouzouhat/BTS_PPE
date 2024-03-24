@@ -1,0 +1,209 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 15 nov. 2023, 09:12:00
+    Author     : Nouzhati
+*/
+
+body {
+            background-image: url('../images/po.jpg');
+        }
+
+        .Boite {
+            margin-top: 99px;
+            border: 1px solid white;
+            border-radius: 5px;
+            width: 700px;
+            height: 550px;
+            background-color: rgba(0, 0, 0, 0.09);
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .entreprise {
+            display: none;
+        }
+
+        .particulier {
+            display: block;
+        }
+
+        .succe {
+            border: 2px solid green;
+            background-color: white;
+            font-size: 1em;
+            width: 20%;
+        }
+        
+        #message {
+            display: none;
+            flex-direction: column;
+            background-color: #fff;
+            border-radius: 6px;
+            width : 350px;
+            color: #000;
+            position : relative;
+            padding: 20px;
+            margin-top: 10px;
+            letter-spacing: 0.5px;
+            animation: anime 0.5s ease-out;
+        }
+        
+        /*animation message */
+        @keyframes anime {
+            from {
+                transform : translateY(100px);
+            }
+        }
+        
+        h3 {
+            font-size : 16px;
+            font-weight: 400;
+        }
+        
+        #message p {
+            margin-left : 7px;
+            /*padding: 7px 0;*/
+            font-size: 15px;
+        }
+        
+        /*Lorsque les exigences sont erronnées*/
+        .invalid {
+            color: red;
+        }
+        
+        .invalid:before {
+            position : relative;
+            left : -7px;
+            content : "✕";
+        }
+        
+        /*Lorsque les exigences sont respéctées*/
+        .valid {
+            color: green;
+        }
+        
+        .valid::before {
+            position: relative;
+            left : -7px;
+            content: "✓";
+        }
+
+
+
+ .custom-navbar {
+      background-color: #001f3f; /* Bleu foncé - Vous pouvez ajuster cette couleur selon vos préférences */
+      width: 100%; /* Largeur à 100% de la fenêtre */
+       /* Utilisation de flexbox pour aligner les éléments horizontalement */
+      padding: 15px; /* Ajout de rembourrage pour plus d'espace */
+      font-family:'Helvetica', sans-serif;;
+    }
+
+    .custom-navbar a {
+      color: #fff; /* Couleur du texte blanche pour les liens */
+    }
+    
+    .navbar-brand {
+      margin-right: 15px; /* Marge à droite pour créer de l'espace entre le logo et les autres éléments */
+    }
+     
+    
+    .custom-image {
+      width: 100%; /* Image occupe 100% de la largeur */
+      height: auto; /* Hauteur automatique pour maintenir les proportions */
+      margin-top: -20px; /* Marge en haut pour l'espacement */
+    }
+    
+     .custom-navbar .navbar-brand img {
+      height: 150px; /* Ajustez la hauteur de l'image selon vos besoins */
+      width: auto; /* Ajustez la largeur automatiquement en fonction de la hauteur */
+      margin-top: -60px;
+    }
+    
+    .custom-navbar .navbar-nav > li > a {
+      color: #ffffff !important; /* Couleur du texte pour les éléments de la liste (blanc dans cet exemple) */
+       font-size: 16px; 
+       text-decoration: none;
+    }
+    
+      
+    .custom-navbar .navbar-nav > li > a:hover {
+        color: #007BFF; 
+      text-decoration: underline; /* Ajoute un soulignement au survol */
+    
+    }
+    
+     .btn-white {
+      color: #000000 !important; /* Texte noir pour le bouton */
+      background-color: #ffffff !important; /* Fond blanc pour le bouton */
+    }
+
+    .btn-white:hover {
+      color: #ffffff  !important; /* Texte noir au survol du bouton */
+      background-color: #007BFF !important; /* Fond bleu au survol du bouton */
+    }
+    
+
+body{
+   padding:0px;
+   margin:0px;
+  
+   background-size:cover;
+ }
+article{
+    position:absolute;
+    top:1px;
+    width:5%;
+    background-color:lightsalmon;
+    height:38px;
+    font-family:math;
+    
+}
+article p a{
+    position:absolute;
+    top:1px;
+    text-decoration:none;
+    color:white;
+    font-size:15px;
+}
+article p:first-letter{
+    font-family:cursive;
+}
+ .Boite{
+     margin-top:99px;
+     border:1px solid white;
+     border-radius:5px;
+     width:700px;
+     height:500px;
+     background-color:rgba(0, 0, 0, 0.09);
+     
+    }
+    input{
+        margin:10px;
+    }
+    input{
+        border-radius:5px 5px 5px 5px;
+    }
+    input[type=submit]:first-child{
+     margin-top:20px;   
+    }
+    input[type=password]{
+        margin-top:10px;
+    }
+    .données{
+        float:right;
+        width:50%;
+        margin-top:21px;
+    }
+    .case{
+        position:relative;
+        float:left;
+        width:50%;
+        
+    }
+    input:invalid{
+        border-color:red;
+    }
+   

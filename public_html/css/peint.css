@@ -1,0 +1,213 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 15 janv. 2024, 10:18:22
+    Author     : Nouzhati
+*/
+
+h1 {
+   color: darkred;
+   text-align: center;
+   font-size : 40px;
+}
+
+
+form{
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  margin-left : 120px;
+}
+
+.price {
+  color: orangered;
+  font-size: 22px;
+}
+
+input[type=submit]{
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: darkred;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+input[type=text]{
+  visibility: hidden;
+}
+
+
+input[type=submit]:hover {
+  background-color: rgba(236, 102, 11, 0.8);
+  color: white;
+}
+
+.lien{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+  
+}
+
+ .custom-navbar {
+      background-color: darkred; /* Bleu foncé - Vous pouvez ajuster cette couleur selon vos préférences */
+      width: 100%; /* Largeur à 100% de la fenêtre */
+       /* Utilisation de flexbox pour aligner les éléments horizontalement */
+      padding: 15px; /* Ajout de rembourrage pour plus d'espace */
+      font-family:'Helvetica', sans-serif;;
+    }
+
+    .custom-navbar a {
+      color: #fff; /* Couleur du texte blanche pour les liens */
+    }
+    
+    .navbar-brand {
+      margin-right: 15px; /* Marge à droite pour créer de l'espace entre le logo et les autres éléments */
+    }
+     
+    
+    .custom-image {
+      width: 100%; /* Image occupe 100% de la largeur */
+      height: 680px; /* Hauteur automatique pour maintenir les proportions */
+      margin-top: -50px; /* Marge en haut pour l'espacement */
+    }
+    
+     .custom-navbar .navbar-brand img {
+      height: 150px; /* Ajustez la hauteur de l'image selon vos besoins */
+      width: auto; /* Ajustez la largeur automatiquement en fonction de la hauteur */
+      margin-top: -60px;
+    }
+    
+    .custom-navbar .navbar-nav > li > a {
+      color: #ffffff !important; /* Couleur du texte pour les éléments de la liste (blanc dans cet exemple) */
+       font-size: 16px; 
+       text-decoration: none;
+    }
+    
+      
+    .custom-navbar .navbar-nav > li > a:hover {
+        color: #007BFF; 
+      text-decoration: underline; /* Ajoute un soulignement au survol */
+    
+    }
+    
+     .btn-white {
+      color: #000000 !important; /* Texte noir pour le bouton */
+      background-color: #ffffff !important; /* Fond blanc pour le bouton */
+    }
+
+    .btn-white:hover {
+      color: #ffffff  !important; /* Texte noir au survol du bouton */
+      background-color: #007BFF !important; /* Fond bleu au survol du bouton */
+    }
+    
+
+.info h1{
+                color:black;
+                font-family:sans-serif;
+   }
+
+.info p a {
+       text-decoration:none;
+       color:white;
+   }
+ .info h3{
+                color:black;
+            }
+.info {
+                width:30%;
+                border-right:1px solid white;
+            }
+  h2 a i{
+                padding:50px;
+               
+            }
+            h2 a{
+                 text-decoration:none;
+       color:white;
+            }
+            .sous {
+                display:none;
+                
+                background-color:transparent;
+                position:absolute;
+                width:100%;
+                z-index:1000;
+            }
+            nav > ul li:hover .sous{
+                display:block;
+            }
+            .sous li{
+                float:left;
+                width:100%;
+                text-align:left;
+            }
+            .Sur > a::after{
+                
+                content:"▼";
+                font-size:12px;
+                
+            }
+            .sous a{
+                padding:10px;
+                border-bottom:none;
+            }
+            .sous a:hover{
+                border-bottom:none;
+                
+            }
+            
+            .ensemble {
+    display: inline-block;
+}
+
+.materiels {
+  float: left;
+  overflow: hidden;
+}
+
+.materiels .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.materiels-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.materiels-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.materiels-content a:hover {
+  background-color: #ddd;
+}
+
+.materiels:hover .materiels-content {
+  display: block;
+}
+ 
+

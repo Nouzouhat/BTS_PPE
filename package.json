@@ -1,0 +1,8 @@
+{
+    "name": "PPS",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "Nouzhati",
+    "contributors": [],
+    "dependencies": {}
+}
